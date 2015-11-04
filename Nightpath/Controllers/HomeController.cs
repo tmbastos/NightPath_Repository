@@ -26,5 +26,12 @@ namespace Nightpath.Controllers
 
             return View();
         }
+
+        public ActionResult Points()
+        {
+            ViewBag.Message = "Manage your points.";
+
+            return View();
+        }
     }
 }
