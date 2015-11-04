@@ -1,0 +1,6 @@
+C:\Users\joao\Documents\GitHub\NightPath_Repository\Nightpath\bin\Nightpath.dll.config
+C:\Users\joao\Documents\GitHub\NightPath_Repository\Nightpath\bin\Nightpath.dll
+C:\Users\joao\Documents\GitHub\NightPath_Repository\Nightpath\bin\Nightpath.pdb
+C:\Users\joao\Documents\GitHub\NightPath_Repository\Nightpath\obj\Debug\Nightpath.dll
+C:\Users\joao\Documents\GitHub\NightPath_Repository\Nightpath\obj\Debug\Nightpath.pdb
+C:\Users\joao\Documents\GitHub\NightPath_Repository\Nightpath\obj\Debug\Nightpath.csprojResolveAssemblyReference.cache

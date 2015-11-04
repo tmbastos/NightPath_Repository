@@ -1,19 +1,12 @@
 ﻿@{
     Layout = null;
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "HomePage";
 }
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
 
-</head>
-<body>
-    <div class="container-fluid">
+
+
+
+    <div class="jumbotron">
 
         <!--carousel
             ---------------------------------------------------------------------------------------->
@@ -26,17 +19,17 @@
             </ol>
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="/Content/images/bar3.jpg">
+                    <img src="/Content/images/2.png">
 
                 </div>
                 <div class="item">
-                    <img src="/Content/images/bar1.jpg">
+                    <img src="/Content/images/2.png">
                 </div>
                 <div class="item">
-                    <img src="/Content/images/bar2.png">
+                    <img src="/Content/images/2.png">
                 </div>
                 <div class="item">
-                    <img src="/Content/images/bar3.jpg">
+                    <img src="/Content/images/2.png">
                 </div>
             </div>
             <a class="left carousel-control" href="#mycarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
@@ -44,18 +37,5 @@
         </div>
         <!--end carousel
             --------------------------------------------------------------------------------->
-        <!-- position relative
-           top -100px
-            -->
-        <div class="index-btn">
-            <h1>Where to...</h1>
-            <button type="button">Login</button>
-            <button type="button">Sign in</button>
-            </div>
-        </div>
-    
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-       
-</body>
-</html>
+    </div>
+

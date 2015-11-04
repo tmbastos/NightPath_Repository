@@ -8,6 +8,10 @@ namespace Nightpath.Controllers
 {
     public class HomeController : Controller
     {
+        public ActionResult HomePage()
+        {
+            return View();
+        }
         public ActionResult Index()
         {
             return View();
