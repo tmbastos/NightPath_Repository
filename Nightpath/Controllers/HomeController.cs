@@ -12,6 +12,16 @@ namespace Nightpath.Controllers
         {
             return View();
         }
+
+        public ActionResult ReadEstablishment()
+        {
+            return View();
+        }
+
+        public ActionResult CreateEvent()
+        {
+            return View();
+        }
         public ActionResult Index()
         {
             return View();
