@@ -246,8 +246,11 @@
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Home\CreateEvent.cshtml" />
     <Content Include="Views\Home\readEstablishment.cshtml" />
+=======
+>>>>>>> e8f9a93b132d2b3dec19913ee1be7d3d4f642aa5
     <Content Include="Views\Home\Catalog.cshtml" />
     <Content Include="Views\Home\Points.cshtml" />
   </ItemGroup>
