@@ -13,5 +13,8 @@ namespace Nightpath.Models
 
         public virtual District District { get; set; }
 
+        public virtual ICollection<Establishment> Establishments { get; set; }
+
+
     }
 }

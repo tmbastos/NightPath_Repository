@@ -12,11 +12,13 @@ namespace Nightpath.Models
         public string Location { get; set; }
         public string Schedule { get; set; }
         public int NIF { get; set; }
-        public int UserID { get; set; }
+        public int Estab_OwnerID { get; set; }
         public int DistrictID { get; set; }
 
-        public virtual User User { get; set; }
+        public virtual Estab_Owner Estab_Owner { get; set; }
         public virtual District District { get; set; }
+
+        public virtual ICollection<Event> Event { get; set; }
 
 
 
