@@ -13,11 +13,9 @@ namespace Nightpath.Models
         public string Schedule { get; set; }
         public int NIF { get; set; }
         public int UserID { get; set; }
-        public int RegionID { get; set; }
         public int DistrictID { get; set; }
 
         public virtual User User { get; set; }
-        public virtual Region Region { get; set; }
         public virtual District District { get; set; }
 
 
