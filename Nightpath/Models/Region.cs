@@ -9,7 +9,9 @@ namespace Nightpath.Models
     {
         public int ID { get; set; }
         public string RegionName { get; set; }
+        public string DistrictID { get; set; }
 
-        public virtual ICollection<Establishment> Establishment { get; set; }
+        public virtual District District { get; set; }
+
     }
 }

@@ -17,5 +17,9 @@ namespace Nightpath.Models
         public virtual Client Client { get; set; }
 
 
+
+
+
+
     }
 }

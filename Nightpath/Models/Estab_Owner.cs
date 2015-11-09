@@ -10,7 +10,10 @@ namespace Nightpath.Models
         public int UserID { get; set; }
 
         public virtual User User { get; set; }
-            
+
+        public virtual ICollection<Establishment> Establishment { get; set; }
+
+
     }
 
 }
