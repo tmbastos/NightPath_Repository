@@ -11,5 +11,8 @@ namespace Nightpath.Models
 
 
         public virtual User User { get; set; }
+
+        public ICollection<Review> Reviews { get; set; }
+        public ICollection<Points> Points { get; set; }
     }
 }
