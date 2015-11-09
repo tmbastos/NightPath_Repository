@@ -33,7 +33,8 @@ body {
 .index-btn {
     position: relative;
     bottom: 60%;
-    left: 50%;
+    text-align:center;
+    
 }
 
 .center-btn{
@@ -48,6 +49,7 @@ body {
 .dimensionimg-carousel{
     
     height: 100%;
+ 
     
 
 }
