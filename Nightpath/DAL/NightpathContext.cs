@@ -29,6 +29,11 @@ namespace Nightpath.DAL
         public DbSet<Estab_Owner> Estab_Owners { get; set; }
 
         public DbSet<Client> Clients { get; set; }
-        
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+        }
+
     }
 }
