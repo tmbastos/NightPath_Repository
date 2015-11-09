@@ -1,14 +1,14 @@
-﻿html,
+html,
 body {
     height: 100%;
 }
-
 
 .container-fluid,
 .carousel,
 .item,
 .active {
     height: 100%;
+    width: 100%;
 }
 
 
@@ -28,14 +28,31 @@ body {
     -o-background-size: cover;
 }
 
+
+
 .index-btn {
     position: relative;
     bottom: 60%;
-    left:50%
-}
-.p1 {
-    position: relative;
     left: 50%;
-    bottom: 50%;
-    
 }
+
+.center-btn{
+    text-align: center;
+}
+
+.formCreateEvent{
+    font-size: 12px;
+    font-family:Arial;
+}
+
+.dimensionimg-carousel{
+    
+    height: 100%;
+    
+
+}
+
+.right-btn{
+    text-align: right;
+}
+
