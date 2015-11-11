@@ -255,7 +255,9 @@
     <Content Include="Views\Event\CreateEvent.cshtml" />
     <Content Include="Views\Establishment\readEstablishment.cshtml" />
     <Content Include="Views\Home\Points.cshtml" />
-    <Content Include="Views\Account\Feed.cshtml" />
+	<Content Include="Views\Home\Catalog.cshtml" />
+    <Content Include="Views\Home\BankTransfer.cshtml" />
+	<Content Include="Views\Account\Feed.cshtml" />
     <Content Include="Views\Home\Catalog.cshtml" />
     <Content Include="Views\Home\BankTransfer.cshtml" />
     <Content Include="Views\Clients\Create.cshtml" />
@@ -272,6 +274,7 @@
     <EmbeddedResource Include="Migrations\201511112242518_initial.resx">
       <DependentUpon>201511112242518_initial.cs</DependentUpon>
     </EmbeddedResource>
+
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
