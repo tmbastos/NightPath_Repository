@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Nightpath.DAL;
+using System.Collections.Generic;
 
 namespace Nightpath.Models
 {
@@ -19,7 +20,9 @@ namespace Nightpath.Models
 
         public string Name { get; set; }
         public string Address { get; set; }
-        public virtual Client Client { get; set; }
+        public virtual ICollection<Client> Client { get; set; }
+        public virtual ICollection<Estab_Owner> Establishment { get; set; }
+        
 
     }
 
