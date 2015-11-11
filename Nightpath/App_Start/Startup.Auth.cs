@@ -8,6 +8,7 @@ using Microsoft.Owin.Security.Google;
 using Owin;
 using System;
 using Nightpath.Models;
+using Nightpath.DAL;
 
 namespace Nightpath
 {
