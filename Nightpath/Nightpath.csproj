@@ -249,11 +249,8 @@
     <Content Include="Views\Event\CreateEvent.cshtml" />
     <Content Include="Views\Establishment\readEstablishment.cshtml" />
     <Content Include="Views\Home\Points.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Home\Catalog.cshtml" />
-=======
     <Content Include="Views\Home\BankTransfer.cshtml" />
->>>>>>> 732cbbccc7ab5a493dfd527c925a8fda6e36585f
   </ItemGroup>
   <ItemGroup />
   <ItemGroup />
