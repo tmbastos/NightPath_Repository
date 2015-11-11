@@ -12,7 +12,9 @@ namespace Nightpath.DAL
     {
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
-        { }
+        {
+
+        }
         
         public DbSet<Review> Reviews { get; set; }
 
