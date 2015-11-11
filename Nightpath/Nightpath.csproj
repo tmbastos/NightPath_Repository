@@ -248,10 +248,10 @@
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\CreateEvent.cshtml" />
-    <Content Include="Views\Home\readEstablishment.cshtml" />
-    <Content Include="Views\Home\Catalog.cshtml" />
+    <Content Include="Views\Event\CreateEvent.cshtml" />
+    <Content Include="Views\Establishment\readEstablishment.cshtml" />
     <Content Include="Views\Home\Points.cshtml" />
+    <Content Include="Views\Home\Catalog.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup />
