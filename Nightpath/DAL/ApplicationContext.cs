@@ -1,19 +1,19 @@
-﻿using Nightpath.Models;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using Nightpath.Models;
+using System;
+using System.Collections.Generic;
 using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
-
+using System.Linq;
+using System.Web;
 
 namespace Nightpath.DAL
 {
-    public class NightpathContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public NightpathContext() : base("NightpathContext")
+        public ApplicationDbContext()
+            : base("DefaultConnection", throwIfV1Schema: false)
         { }
-
-        public DbSet<User> Users { get; set; }
-
-        public DbSet<Role> Roles { get; set; }
-
+        
         public DbSet<Review> Reviews { get; set; }
 
         public DbSet<District> Districts { get; set; }
@@ -29,11 +29,12 @@ namespace Nightpath.DAL
         public DbSet<Estab_Owner> Estab_Owners { get; set; }
 
         public DbSet<Client> Clients { get; set; }
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        public static ApplicationDbContext Create()
         {
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            return new ApplicationDbContext();
         }
+    }
+
+
 
     }
-}

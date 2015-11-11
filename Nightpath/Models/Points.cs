@@ -7,6 +7,7 @@ namespace Nightpath.Models
 {
     public class Points
     {
+        public int ID { get; set; }
         public int EstablishmentID { get; set; }
         public int ClientID { get; set; }
         public int PointsNumber { get; set; }

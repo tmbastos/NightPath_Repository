@@ -5,11 +5,11 @@ using System.Web;
 
 namespace Nightpath.Models
 {
-    public class Estab_Owner : User
+    public class Estab_Owner : ApplicationUser
     {
         public int UserID { get; set; }
 
-        public virtual User User { get; set; }
+        public virtual ApplicationUser User { get; set; }
 
         public virtual ICollection<Establishment> Establishment { get; set; }
 

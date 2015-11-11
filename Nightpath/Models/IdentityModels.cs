@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using Nightpath.DAL;
 
 namespace Nightpath.Models
 {
@@ -15,18 +16,13 @@ namespace Nightpath.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public virtual Client Client { get; set; }
+
     }
 
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
-    {
-        public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
-        {
-        }
 
-        public static ApplicationDbContext Create()
-        {
-            return new ApplicationDbContext();
-        }
-    }
+
 }
