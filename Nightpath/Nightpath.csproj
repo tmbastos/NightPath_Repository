@@ -252,6 +252,7 @@
     <Content Include="Views\Home\readEstablishment.cshtml" />
     <Content Include="Views\Home\Catalog.cshtml" />
     <Content Include="Views\Home\Points.cshtml" />
+    <Content Include="Views\Account\Feed.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup />
