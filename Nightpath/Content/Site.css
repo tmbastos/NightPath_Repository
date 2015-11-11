@@ -48,8 +48,8 @@ body {
 
 .dimensionimg-carousel{
     
-    min-height: 900px;
-    min-width: 800px;
+    min-height: 100%;
+    min-width: 100%;
  
     
 
@@ -69,3 +69,12 @@ body {
     padding-top: 10px;
 }
 
+<<<<<<< HEAD
+.carousel-container{
+    width: 500px;
+    height: 250px;
+}
+=======
+
+
+>>>>>>> 732cbbccc7ab5a493dfd527c925a8fda6e36585f

@@ -13,6 +13,11 @@ namespace Nightpath.Controllers
             return View();
         }
 
+        public ActionResult Catalog()
+        {
+            return View();
+        }
+
         public ActionResult ReadEstablishment()
         {
             return View();
@@ -44,6 +49,12 @@ namespace Nightpath.Controllers
         public ActionResult Points()
         {
             ViewBag.Message = "Manage your points.";
+
+            return View();
+        }
+        public ActionResult BankTransfer()
+        {
+            ViewBag.Message = "Bank Transfer Data";
 
             return View();
         }

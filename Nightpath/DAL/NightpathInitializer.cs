@@ -7,23 +7,11 @@ using Nightpath.Models;
 
 namespace Nightpath.DAL
 {
-    public class NightpathInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<NightpathContext>
+    public class NightpathInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<ApplicationDbContext>
     {
-        protected override void Seed(NightpathContext context)
+        protected override void Seed(ApplicationDbContext context)
         {
-            var Roles = new List<Role>
-            {
-                new Role {ID=1,Description="Administrador"},
-                new Role {ID=2,Description="Client"},
-                new Role {ID=3,Description="Estab_Owner"}
-            };
-
-
-            var Users = new List<User>
-            {
-              new User {Name="Ricardo",Address="Arouca",Password="1234",Email="rmaoliveira@ua.pt",RoleID=1}
-            };
-
+           
             var Districts = new List<District>
             {
                 new District {ID=1,DistrictName="Aveiro"},
