@@ -5,14 +5,14 @@ using System.Web;
 
 namespace Nightpath.Models
 {
-    public class Client:User
+    public class Client:ApplicationUser
     {
-        public int UserID { get; set; }
+        public int ID { get; set; }
 
 
-        public virtual User User { get; set; }
+        public virtual ApplicationUser User { get; set; }
 
-        public ICollection<Review> Reviews { get; set; }
-        public ICollection<Points> Points { get; set; }
+        public virtual ICollection<Review> Reviews { get; set; }
+        public virtual ICollection<Points> Points { get; set; }
     }
 }

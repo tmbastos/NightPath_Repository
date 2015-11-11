@@ -163,7 +163,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="DAL\NightpathContext.cs" />
+    <Compile Include="DAL\ApplicationContext.cs" />
     <Compile Include="DAL\NightpathInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -178,8 +178,6 @@
     <Compile Include="Models\Points.cs" />
     <Compile Include="Models\Region.cs" />
     <Compile Include="Models\Review.cs" />
-    <Compile Include="Models\Role.cs" />
-    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
