@@ -7,13 +7,13 @@ namespace Nightpath.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class app_start : IMigrationMetadata
+    public sealed partial class initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(app_start));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201511112003545_app_start"; }
+            get { return "201511112242518_initial"; }
         }
         
         string IMigrationMetadata.Source
