@@ -251,6 +251,7 @@
     <Content Include="Views\Home\Catalog.cshtml" />
     <Content Include="Views\Home\Points.cshtml" />
     <Content Include="Views\Home\BankTransfer.cshtml" />
+    <Content Include="Views\Account\Profile.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup />

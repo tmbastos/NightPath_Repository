@@ -23,6 +23,13 @@ namespace Nightpath.Controllers
         {
         }
 
+        public ActionResult Profile()
+        {
+            ViewBag.Message = "View Profile";
+
+            return View();
+        }
+
         public AccountController(ApplicationUserManager userManager)
         {
             UserManager = userManager;

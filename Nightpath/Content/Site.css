@@ -69,5 +69,17 @@ body {
     padding-top: 10px;
 }
 
+.profile-pic{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-bottom-color: blue;
+    width: 100px;
+    height: 150px;
+}
 
-
+.left-btn{
+    text-align: left;
+}
