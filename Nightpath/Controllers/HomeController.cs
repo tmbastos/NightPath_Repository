@@ -13,6 +13,11 @@ namespace Nightpath.Controllers
             return View();
         }
 
+        public ActionResult Catalog()
+        {
+            return View();
+        }
+
         public ActionResult ReadEstablishment()
         {
             return View();

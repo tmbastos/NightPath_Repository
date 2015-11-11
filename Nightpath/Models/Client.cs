@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Nightpath.Models
 {
-    public class Client:ApplicationUser
+    public class Client
     {
         public int ID { get; set; }
 
