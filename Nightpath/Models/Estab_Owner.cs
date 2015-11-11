@@ -5,9 +5,9 @@ using System.Web;
 
 namespace Nightpath.Models
 {
-    public class Estab_Owner : ApplicationUser
+    public class Estab_Owner
     {
-        public int UserID { get; set; }
+        public int ID { get; set; }
 
         public virtual ApplicationUser User { get; set; }
 
