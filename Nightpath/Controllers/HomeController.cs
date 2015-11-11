@@ -47,5 +47,11 @@ namespace Nightpath.Controllers
 
             return View();
         }
+        public ActionResult BankTransfer()
+        {
+            ViewBag.Message = "Bank Transfer Data";
+
+            return View();
+        }
     }
 }
